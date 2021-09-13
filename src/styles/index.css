@@ -90,11 +90,6 @@ h4 {
     text-align: center;
 }
 
-.title-l {
-    opacity: 0.8;
-    font-size: 2em;
-}
-
 .brand {
     color: var(--primary);
 }
@@ -103,11 +98,7 @@ h4 {
     padding: 80px;
 }
 
-.title-h {
-    margin-top: 30px;
-}
-
-h1 {
+.h1 {
     font-size: 4rem;
 }
 
@@ -352,6 +343,10 @@ footer small {
     }
 }
 
+.about {
+    margin-top: 6em;
+}
+
 @media (max-width: 580px) {
     nav ul {
         flex-direction: column;
@@ -374,7 +369,7 @@ footer small {
     .hero,
     .hero-about,
     section {
-        margin-top: 2.5em;
+        margin-top: 0.2em;
     }
     .hero {
         padding-bottom: 1em;
@@ -693,6 +688,25 @@ nav .link {
     opacity: 0.8;
 }
 
+.title {
+    font-size: 5vw;
+}
+
+.job {
+    font-size: 3vw;
+    opacity: 0.8;
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 1.6em;
+    }
+    .job {
+        font-size: 1em;
+    }
+}
+
 .circular-img {
     display: inline-block;
     padding: 10px;
@@ -777,4 +791,33 @@ ul.tl li .timestamp {
     left: -50%;
     text-align: right;
     font-size: 12px;
+}
+
+h2.padded-multi-line {
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin: 1em auto;
+    position: relative;
+    top: -2em;
+}
+
+.padded-multi-line>span {
+    /*   display: inline; */
+    box-shadow: 0 .35em 0 0 orange, 0 .35em 0 0 orange;
+    /*   padding: 0 10px 0 10px; */
+    /*   position: relative; */
+    /*   left: .7em; */
+}
+
+.padded-multi-line span span {
+    position: relative;
+    top: .68em;
+    /*   left: -.35em; */
+    /*   display: inline; */
+    /*   white-space: pre-wrap; */
+    padding: 0 1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    /*   box-shadow: .7em 0 0 -.33em orange, -.7em 0 0 -.33em orange; */
 }

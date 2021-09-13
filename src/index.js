@@ -11,6 +11,11 @@ import scroll from './modules/scroll';
 import { toggleTheme, addBodyClass, addBtnClass } from './modules/toggleTheme';
 import displayList from './modules/displayList';
 
+
+
+
+
+
 const btnHamburger = document.querySelector('.fa-bars');
 const btnTheme = document.querySelector('.fa-moon');
 
