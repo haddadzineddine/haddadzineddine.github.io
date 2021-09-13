@@ -353,6 +353,7 @@ footer small {
         padding: 4em 0;
         position: absolute;
         right: 0;
+        z-index: 1;
         left: 0;
         top: 5em;
         background-color: var(--bg);
