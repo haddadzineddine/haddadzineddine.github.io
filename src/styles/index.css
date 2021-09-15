@@ -689,6 +689,10 @@ nav .link {
     opacity: 0.8;
 }
 
+.group-title-job {
+    opacity: 0.8;
+}
+
 .title {
     font-size: 5vw;
 }
