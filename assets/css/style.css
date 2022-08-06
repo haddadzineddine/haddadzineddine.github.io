@@ -35,6 +35,7 @@
 31. Home Classic
 32. White Version
 ----------------------------*/
+
 /* Default  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
@@ -10791,7 +10792,8 @@ div#featured-project-carousel {
     border-radius: 10px;
     padding: 3px;
     background: #212428;
-    box-shadow: inset 8px 8px 16px #00000075,  inset -8px -8px 16px #383e4575; }
+    box-shadow: inset 8px 8px 16px #00000075, 
+ inset -8px -8px 16px #383e4575; }
     .progress-charts .progress .progress-bar {
       overflow: visible;
       position: relative;
